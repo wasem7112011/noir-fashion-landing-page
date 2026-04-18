@@ -1,6 +1,5 @@
 const filterButtons = document.querySelectorAll('.collection .nav li');
 const cards = document.querySelectorAll('.collection .card');
-const formButton;
 
 filterButtons.forEach(btn => {
   btn.addEventListener('click', () => {
