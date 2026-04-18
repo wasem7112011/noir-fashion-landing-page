@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Normalize Library -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Main CSS Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>NOIR</title>
+  </head>
+  <body>
+    <!-- Start Header Section -->
+    <div class="header padding">
+      <div class="logo">NOIR</div>
+      <div class="nav">
+        <div class="bar">
+          <input type="checkbox" id="checkbox">
+          <label for="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <ul>
+            <li class="active"><a href="#" onclick="document.getElementById('checkbox').checked = false;">HOME</a></li>
+            <li><a href="#collection" onclick="document.getElementById('checkbox').checked = false;">COLLECTIONS</a></li>
+            <li><a href="#features" onclick="document.getElementById('checkbox').checked = false;">FEATURED</a></li>
+            <li><a href="#contact" onclick="document.getElementById('checkbox').checked = false;">CONTACT</a></li>
+          </ul>
+        </div>
+        <button>GET IN TOUCH</button>
+      </div>
+    </div>
+    <!-- End Header Section -->
+    <!-- Start Landing Section -->
+    <div class="landing padding">
+      <div class="content">
+        <div class="box">NEW COLLECTION 2025</div>
+        <h1>Redefine Your <span>Style</span> Revolution</h1>
+        <p>Discover our avant-garde collection where high fashion meets street culture. Each piece tells a story of rebellion, elegance, and innovation.</p>
+        <div class="statues">
+          <div class="statue">
+            <h3>500+</h3>
+            <p>Exclusive Pieces</p>
+          </div>
+          <div class="statue">
+            <h3>48H</h3>
+            <p>Fast Delivery</p>
+          </div>
+          <div class="statue">
+            <h3>100%</h3>
+            <p>Sustainable</p>
+          </div>
+        </div>
+        <div class="buttons">
+          <button>EXPLORE COLLECTION</button>
+          <button>WATCH RUNWAY</button>
+        </div>
+      </div>
+      <div class="image">
+        <img src="images/landing.avif" alt="img">
+      </div>
+    </div>
+    <!-- End Landing Section -->
+    <!-- Start Collection Section -->
+    <div class="collection padding" id="collection">
+      <h1 class="special-h center">Latest Collections</h1>
+      <p class="special-p center">Discover our curated selection</p>
+      <div class="nav">
+        <ul>
+          <li class="active" data-filter="all">ALL</li>
+          <li data-filter="women">WOMEN</li>
+          <li data-filter="men">MEN</li>
+          <li data-filter="accessories">ACCESSORIES</li>
+          <li data-filter="limited">LIMITED EDITION</li>
+        </ul>
+      </div>
+      <div class="collection-container">
+        <div class="card" data-category="women">
+          <div class="image">
+            <img src="images/coll1.avif" alt="img">
+            <div class="overlay"></div>
+          </div>
+          <div class="content">
+            <div class="box">New Arrival</div>
+            <h2>Urban Edge</h2>
+            <p>Women's Collection</p>
+            <h3>From $299</h3>
+          </div>
+        </div>
+        <div class="card" data-category="women">
+          <div class="image">
+            <img src="images/coll2.avif" alt="img">
+            <div class="overlay"></div>
+          </div>
+          <div class="content">
+            <div class="box">Limited</div>
+            <h2>Midnight Luxe</h2>
+            <p>women's collection</p>
+            <h3>From $899</h3>
+          </div>
+        </div>
+        <div class="card" data-category="men">
+          <div class="image">
+            <img src="images/coll3.avif" alt="img">
+            <div class="overlay"></div>
+          </div>
+          <div class="content">
+            <div class="box">Bestseller</div>
+            <h2>Neo Classic</h2>
+            <p>Men's Essentials</p>
+            <h3>From $399</h3>
+          </div>
+        </div>
+        <div class="card" data-category="accessories">
+          <div class="image">
+            <img src="images/coll4.avif" alt="img">
+            <div class="overlay"></div>
+          </div>
+          <div class="content">
+            <div class="box">Trending</div>
+            <h2>Accent Pieces</h2>
+            <p>Accessories</p>
+            <h3>From $149</h3>
+          </div>
+        </div>
+        <div class="card" data-category="women">
+          <div class="image">
+            <img src="images/coll5.avif" alt="img">
+            <div class="overlay"></div>
+          </div>
+          <div class="content">
+            <div class="box">Pre-Order</div>
+            <h2>Spring Bloom</h2>
+            <p>Women's Spring</p>
+            <h3>From $249</h3>
+          </div>
+        </div>
+        <div class="card" data-category="men">
+          <div class="image">
+            <img src="images/coll6.avif" alt="img">
+            <div class="overlay"></div>
+          </div>
+          <div class="content">
+            <div class="box">Hot</div>
+            <h2>Street Rebel</h2>
+            <p>Men's Streetwear</p>
+            <h3>From $199</h3>
+          </div>
+        </div>
+        <div class="card" data-category="limited">
+          <div class="image">
+            <img src="images/coll7.avif" alt="img">
+            <div class="overlay"></div>
+          </div>
+          <div class="content">
+            <div class="box">Exclusive</div>
+            <h2>Avant Garde</h2>
+            <p>limited edition</p>
+            <h3>From $1,299</h3>
+          </div>
+        </div>
+        <div class="card" data-category="men">
+          <div class="image">
+            <img src="images/coll8.avif" alt="img">
+            <div class="overlay"></div>
+          </div>
+          <div class="content">
+            <div class="box">Essentials</div>
+            <h2>Minimal Chic</h2>
+            <p>men's collection</p>
+            <h3>From $89</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Collection Section -->
+    <!-- Start Art Of Fashion Section -->
+    <div class="art-of-fashion padding" id="features">
+      <div class="content">
+        <p>Crafted with Passion</p>
+        <h1 class="special-h">The Art of Fashion</h1>
+        <p>Where tradition meets innovation. Our master craftsmen blend centuries-old techniques with cutting-edge design to create pieces that transcend time and trends. This template is proudly crafted by TemplateMo, featuring beautiful imagery from Unsplash.</p>
+        <div class="cards">
+          <div class="card">
+            <img src="images/POC1.png" alt="image">
+            <h3>Premium Quality</h3>
+            <p>Only the finest materials and fabrics make it into our collections</p>
+          </div>
+          <div class="card">
+            <img src="images/POC2.png" alt="image">
+            <h3>Sustainable</h3>
+            <p>Ethically sourced materials with carbon-neutral production</p>
+          </div>
+          <div class="card">
+            <img src="images/POC3.png" alt="image">
+            <h3>Handcrafted</h3>
+            <p>Each piece is carefully crafted by skilled artisans</p>
+          </div>
+        </div>
+        <a href="#collection">Discover Our Craft</a>
+      </div>
+      <div class="images">
+        <img src="images/AOF1.avif" alt="image">
+        <div class="multi">
+          <img src="images/AOF2.avif" alt="image">
+          <img src="images/AOF3.avif" alt="image">
+        </div>
+      </div>
+    </div>  
+    <!-- End Art Of Fashion Section -->
+    <!-- Start Testmonials Section -->
+    <div class="testmonials padding">
+      <h1 class="special-h center">What Our Customers Say</h1>
+      <p class="special-p center">Real stories from fashion enthusiasts</p>
+      <div class="cards">
+        <div class="card">
+          <q>NOIR has completely transformed my wardrobe. The quality and attention to detail is unmatched. Every piece feels like a work of art.</q>
+          <div class="box">
+            <span>S</span>
+            <div class="content">
+              <h4>Sarah Chen</h4>
+              <p>Fashion Blogger</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <q>The sustainable approach combined with luxury design is exactly what I was looking for. NOIR proves you don't have to compromise.</q>
+          <div class="box">
+            <span>M</span>
+            <div class="content">
+              <h4>Marcus Rodriguez</h4>
+              <p>Creative Director</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <q>I've been a customer for three years now, and each collection keeps exceeding my expectations. The fit and quality are consistently outstanding.</q>
+          <div class="box">
+            <span>A</span>
+            <div class="content">
+              <h4>Alexandra Kim</h4>
+              <p>Entrepreneur</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Testmonials Section -->
+    <!-- Start Contact Section -->
+    <div class="contact padding" id="contact">
+      <div class="head">
+        <h1 class="special-h center">Get In Touch</h1>
+        <p class="special-p center">We'd love to hear from you</p>
+      </div>
+      <div class="content">
+        <form class="form">
+          <div class="name">
+            <div class="input">
+              <label for="fname">First Name</label>
+              <input type="text" maxlength="8" id="fname" placeholder="John" required>
+            </div>
+            <div class="input">
+              <label for="lname">Last Name</label>
+              <input type="text" maxlength="8" id="lname" placeholder="Doe" required>
+            </div>
+          </div>
+          <div class="email">
+            <div class="input">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="john@example.com" required>
+            </div>
+          </div>
+          <div class="subject">
+            <div class="input">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="How can we help?" required>
+            </div>
+          </div>
+          <div class="message">
+            <div class="input">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Tell us more about your inquiry..." required></textarea>
+            </div>
+          </div>
+          <input type="submit" value="Send Message">
+        </form>
+        <div class="details section">
+          <div class="box">
+            <img src="images/contact1.png" alt="image">
+            <div class="content">
+              <h4>Visit Our Flagship Store</h4>
+              <p>
+                123 Fashion Avenue<br>
+                Bangkok, Thailand 10110<br>
+                Siam District
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/contact2.png" alt="image">
+            <div class="content">
+              <h4>Call Us</h4>
+              <p>
+                Main: <span>+66 02 123 4567</span><br>
+                Support: <span>+66 02 123 4568</span><br>
+                Mon-Fri, 9AM-6PM ICT
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/contact3.png" alt="image">
+            <div class="content">
+              <h4>Email Us</h4>
+              <p>
+                General: <span>hello@noir.fashion</span><br>
+                Support: <span>support@noir.fashion</span><br>
+                Press: <span>press@noir.fashion</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact Section -->
+    <!-- Start Footer Section -->
+    <div class="footer padding">
+      <div class="sections">
+        <div class="sec">
+          <h3>NOIR</h3>
+          <p>Redefining fashion with bold designs, sustainable practices, and uncompromising quality. Join us in creating the future of style.</p>
+          <div class="social">
+            <span>f</span>
+            <span>t</span>
+            <span>i</span>
+            <span>p</span>
+          </div>
+        </div>
+        <div class="sec">
+          <h4>Shop</h4>
+          <ul>
+            <li>New Arrivals</li>
+            <li>Women</li>
+            <li>Men</li>
+            <li>Accessories</li>
+            <li>Sale</li>
+          </ul>
+        </div>
+        <div class="sec">
+          <h4>Support</h4>
+          <ul>
+            <li>Contact Us</li>
+            <li>Size Guide</li>
+            <li>Shipping Info</li>
+            <li>Returns</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+        <div class="sec">
+          <h4>Company</h4>
+          <ul>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Press</li>
+            <li>Sustainability</li>
+            <li>Terms</li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot">
+        <p>&copy; 2025 NOIR. All rights reserved. | Designed by <span>TemplateMo</span></p>
+        <div class="links">
+          <span>Visa</span>
+          <span>Mc</span>
+          <span>Amex</span>
+          <span>Pay</span>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer Section -->
+     <script src="JS/main.js"></script>
+  </body>
+</html>
