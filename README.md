@@ -1,25 +1,23 @@
 # Noir — Fashion Landing Page
 
-A modern and elegant fashion landing page designed with a clean visual style, responsive layout, and a focus on presenting fashion products and collections.
+A modern and elegant fashion landing page built with pure HTML, CSS, and JavaScript.
 
 ## ✨ Features
 
-* Modern fashion-focused UI
-* Fully responsive design
-* Clean and minimal layout
-* Hero section with prominent visual content
-* Product/collection presentation
-* Smooth navigation between sections
-* Mobile-friendly interface
-* Reusable UI components
+* Modern fashion-focused design
+* Fully responsive layout
+* Clean and minimal UI
+* Hero section with fashion-focused visuals
+* Product and collection sections
+* Responsive navigation
+* Mobile-friendly design
+* Interactive UI elements using JavaScript
 
 ## 🛠️ Tech Stack
 
-* Next.js
-* React
-* TypeScript
-* Tailwind CSS
-* Lucide React
+* HTML5
+* CSS3
+* JavaScript
 
 ## 🌐 Live Demo
 
@@ -34,34 +32,26 @@ git clone https://github.com/wasem7112011/noir-fashion-landing-page.git
 cd noir-fashion-landing-page
 ```
 
-### 2. Install dependencies
+### 2. Run the project
 
-```bash
-npm install
-```
+Since this project uses plain HTML, CSS, and JavaScript, no package installation is required.
 
-### 3. Start the development server
-
-```bash
-npm run dev
-```
-
-Open http://localhost:3000 in your browser.
+You can open `index.html` directly in your browser, or use a local development server such as the **Live Server** extension in VS Code.
 
 ## 📁 Project Structure
 
 ```text
 noir-fashion-landing-page/
-├── app/
-├── components/
-├── public/
-├── package.json
+├── index.html
+├── css/
+├── js/
+├── images/
 └── README.md
 ```
 
 ## 📌 Purpose
 
-This project was built as a frontend portfolio project to practice creating modern, responsive, and visually focused interfaces for fashion brands.
+This project was built as a frontend portfolio project to practice creating modern, responsive, and visually focused interfaces using vanilla HTML, CSS, and JavaScript.
 
 ## 📄 License
 
