@@ -1,16 +1,68 @@
-## About The Project
+# Noir — Fashion Landing Page
 
-This is a Frontend implementation of a luxury fashion brand landing page based on a high-fidelity Figma design.
+A modern and elegant fashion landing page designed with a clean visual style, responsive layout, and a focus on presenting fashion products and collections.
 
-The challenge was to convert a static design into a fully responsive, interactive website using only HTML, CSS, and Vanilla JavaScript without any frameworks or libraries.
+## ✨ Features
 
-## My Contributions
-- Built the entire layout from scratch using Flexbox & CSS Grid
-- Implemented a pure CSS mobile burger menu without JavaScript
-- Developed JavaScript filtering logic for the collections section
-- Created all CSS animations and transitions to match the premium feel of the design
-- Ensured 100% responsiveness across all devices - mobile, tablet, and desktop
+* Modern fashion-focused UI
+* Fully responsive design
+* Clean and minimal layout
+* Hero section with prominent visual content
+* Product/collection presentation
+* Smooth navigation between sections
+* Mobile-friendly interface
+* Reusable UI components
 
-## Note
-I built this project completely solo as one of my early projects before learning SASS. 
-Now I have solid experience with SASS, I'm strong in Vanilla JavaScript, and currently learning React to build more dynamic applications.
+## 🛠️ Tech Stack
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Lucide React
+
+## 🌐 Live Demo
+
+[View the live project](https://noir-fashion-landing-page.vercel.app/)
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/wasem7112011/noir-fashion-landing-page.git
+cd noir-fashion-landing-page
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+Open http://localhost:3000 in your browser.
+
+## 📁 Project Structure
+
+```text
+noir-fashion-landing-page/
+├── app/
+├── components/
+├── public/
+├── package.json
+└── README.md
+```
+
+## 📌 Purpose
+
+This project was built as a frontend portfolio project to practice creating modern, responsive, and visually focused interfaces for fashion brands.
+
+## 📄 License
+
+This project is for educational and portfolio purposes.
